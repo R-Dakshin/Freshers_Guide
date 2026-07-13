@@ -63,9 +63,11 @@
           const row = document.createElement("div");
           row.className = "slot-row";
           row.innerHTML = `
-            <span class="slot-badge">${slot.slot}</span>
-            <span class="slot-time">${slot.time}</span>
-            <span class="slot-activity ${activityClass(slot.activity)}">${slot.activity}</span>
+            <div class="slot-meta">
+              <span class="slot-time">${slot.time}</span>
+              <span class="slot-activity ${activityClass(slot.activity)}">${slot.activity}</span>
+            </div>
+            ${slot.venue ? `<div class="slot-venue">${slot.venue}</div>` : ""}
           `;
           slotsCol.appendChild(row);
         });

@@ -6,19 +6,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "VOC Auditorium",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "Proctor-Proctee Meeting"
+            "activity": "Proctor-Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers Portal",
+            "slot": 3
           }
         ]
       },
@@ -26,14 +29,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 2
           }
         ]
       },
@@ -41,9 +46,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Bridge Courses*"
+            "activity": "Bridge Courses*",
+            "venue": "SBST Fresher class Room",
+            "slot": 1
           }
         ]
       },
@@ -51,9 +57,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -66,19 +73,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "Proctor-Proctee Meeting"
+            "activity": "Proctor-Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers Portal",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "VOC Auditorium",
+            "slot": 3
           }
         ]
       },
@@ -86,14 +96,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 2
           }
         ]
       },
@@ -101,9 +113,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Interactions with Industry Experts"
+            "activity": "Interactions with Industry Experts",
+            "venue": "VOC Auditorium",
+            "slot": 1
           }
         ]
       },
@@ -111,9 +124,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -126,19 +140,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "Proctor-Proctee Meeting"
+            "activity": "Proctor-Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers Portal",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "VOC Auditorium",
+            "slot": 3
           }
         ]
       },
@@ -146,14 +163,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 2
           }
         ]
       },
@@ -161,9 +180,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Interactions with Industry Experts"
+            "activity": "Interactions with Industry Experts",
+            "venue": "VOC Auditorium",
+            "slot": 1
           }
         ]
       },
@@ -171,9 +191,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -186,14 +207,16 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "Proctor Proctee Meeting"
+            "activity": "Proctor Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers' Portal",
+            "slot": 2
           }
         ]
       },
@@ -201,14 +224,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 05:30 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 2
           }
         ]
       },
@@ -216,14 +241,16 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 12.30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "Kamaraj Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "2.00 PM to 4.00 PM",
-            "activity": "Bridge Courses*"
+            "activity": "Bridge Courses*",
+            "venue": "Kamaraj Auditorium",
+            "slot": 2
           }
         ]
       },
@@ -231,9 +258,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -246,14 +274,16 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "Proctor Proctee Meeting"
+            "activity": "Proctor Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers' Portal",
+            "slot": 2
           }
         ]
       },
@@ -261,14 +291,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 05:30 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 2
           }
         ]
       },
@@ -276,14 +308,16 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 12.30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "Kamaraj Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "2.00 PM to 4.00 PM",
-            "activity": "Bridge Courses*"
+            "activity": "Bridge Courses*",
+            "venue": "Kamaraj Auditorium",
+            "slot": 2
           }
         ]
       },
@@ -291,9 +325,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -306,14 +341,16 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "Proctor Proctee Meeting"
+            "activity": "Proctor Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers' Portal",
+            "slot": 2
           }
         ]
       },
@@ -321,14 +358,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Bridge Courses"
+            "activity": "Bridge Courses",
+            "venue": "Kamaraj Auditorium",
+            "slot": 2
           }
         ]
       },
@@ -336,9 +375,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 1
           }
         ]
       },
@@ -346,9 +386,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -361,19 +402,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "MG Auditorium",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "Proctor Proctee Meeting"
+            "activity": "Proctor Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers' Portal",
+            "slot": 3
           }
         ]
       },
@@ -381,14 +425,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Bridge Courses"
+            "activity": "Bridge Courses",
+            "venue": "Kamaraj Auditorium",
+            "slot": 2
           }
         ]
       },
@@ -396,9 +442,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 1
           }
         ]
       },
@@ -406,9 +453,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -421,19 +469,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "MG Auditorium",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "Proctor Proctee Meeting"
+            "activity": "Proctor Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers' Portal",
+            "slot": 3
           }
         ]
       },
@@ -441,14 +492,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Bridge Courses"
+            "activity": "Bridge Courses",
+            "venue": "Kamaraj Auditorium",
+            "slot": 2
           }
         ]
       },
@@ -456,9 +509,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 1
           }
         ]
       },
@@ -466,9 +520,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -481,19 +536,22 @@
         "date": "2026-07-15",
         "slots": [
           {
-            "slot": 1,
             "time": "9:30 AM - 01:00 PM",
-            "activity": "Main Induction"
+            "activity": "Main Induction",
+            "venue": "MG Auditorium",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 03:30 PM",
-            "activity": "School Induction"
+            "activity": "School Induction",
+            "venue": "Academic Block 1 - 101",
+            "slot": 2
           },
           {
-            "slot": 3,
             "time": "03:30 PM - 05:00 PM",
-            "activity": "Proctor-Proctee Meeting"
+            "activity": "Proctor-Proctee Meeting",
+            "venue": "Venue will be updated later in Freshers Portal",
+            "slot": 3
           }
         ]
       },
@@ -501,14 +559,16 @@
         "date": "2026-07-16",
         "slots": [
           {
-            "slot": 1,
             "time": "10:00 AM - 01:00 PM",
-            "activity": "English Proficiency Test"
+            "activity": "English Proficiency Test",
+            "venue": "Venue will be updated later in Freshers Info Link",
+            "slot": 1
           },
           {
-            "slot": 2,
             "time": "02:00 PM - 04:00 PM",
-            "activity": "Document Submission / Verification"
+            "activity": "Document Submission / Verification",
+            "venue": "Kasturba Hall",
+            "slot": 2
           }
         ]
       },
@@ -516,9 +576,10 @@
         "date": "2026-07-17",
         "slots": [
           {
-            "slot": 1,
             "time": "9.30 AM to 4.00 PM",
-            "activity": "Bridge Courses*"
+            "activity": "Bridge Courses*",
+            "venue": "VFIT Fresher class Room",
+            "slot": 1
           }
         ]
       },
@@ -526,9 +587,10 @@
         "date": "2026-07-20",
         "slots": [
           {
-            "slot": 1,
             "time": "As per VTOP Time Table",
-            "activity": "COMMENCEMENT OF CLASSES"
+            "activity": "COMMENCEMENT OF CLASSES",
+            "venue": "As per VTOP Time Table",
+            "slot": 1
           }
         ]
       }
@@ -1006,6 +1068,131 @@
             "slot": 3,
             "time": "2:00 PM – 3:30 PM",
             "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Computer Science and Engineering 26BCE1XXX Series",
+    "schedule": [
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor-Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "17.07.2026 & 18.07.2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "09:00 AM - 04:00 PM",
+            "activity": "Document Submission / Verification (Dayscholars - 17th, Hostellers - 18th)"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 11.00 AM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "11.30 AM to 4.30 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Computer Science and Engineering 26BCE5XXX Series",
+    "schedule": [
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "09:30 AM - 12:30 PM",
+            "activity": "Proctor-Proctee Meeting"
+          },
+          {
+            "slot": 2,
+            "time": "2 PM - 5:00 PM",
+            "activity": "Main Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "09:00 PM - 03:30 PM*",
+            "activity": "English Proficiency Test"
+          }
+        ]
+      },
+      {
+        "date": "17.07.2026 & 18.07.2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "09:00 PM - 03:30 PM",
+            "activity": "Document Submission / Verification (Dayscholars - 17th, Hostellers - 18th)"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 11.00 AM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "11.30 AM to 4.30 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }

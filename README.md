@@ -1,18 +1,32 @@
 # Freshers Guide Portal
 
-A static site where incoming students look up their orientation-week schedule by **department** or **registration number** in a secure, privacy-aware experience.
+A static orientation schedule portal for incoming students. The site lets students select their programme and view the latest orientation timetable, including session times, activity names, and venue details.
 
-## Files
+## Project structure
 
-- `index.html` — page markup
-- `style.css` — visual design (Freshers Guide / ticket theme)
-- `app.js` — search logic + rendering
-- `data.json` — the schedule, generated from `schedule.xlsx`
-- `branch-codes.json` — maps each programme to the branch-code fragments expected inside a registration number (e.g. `24CSD0098` → Data Science)
+- `index.html` — page markup and content structure
+- `style.css` — layout, theme, and responsive styling
+- `app.js` — department lookup, schedule rendering, and page interaction
+- `data.json` — programme schedules and venue details used by the site
+- `data.xlsx` — source schedule data used to update `data.json`
 
-## Editing the schedule
+## How it works
 
-If the timetable changes, edit `data.json` directly (or regenerate it from a new spreadsheet) — no other file needs to change. Each entry looks like:
+Students choose their programme from the dropdown and the app renders that programme's schedule.
+
+- No registration-number search is required anymore
+- The dropdown is populated from `data.json`
+- Schedule entries now include session time, activity, and venue
+
+## Updating schedules
+
+To update the timetable:
+
+1. Edit `data.xlsx` with the new schedule details.
+2. Regenerate `data.json` from the spreadsheet, or update `data.json` directly.
+3. Keep programme names consistent so the dropdown loads the correct entries.
+
+Schedule objects in `data.json` should follow this shape:
 
 ```json
 {
@@ -20,44 +34,38 @@ If the timetable changes, edit `data.json` directly (or regenerate it from a new
   "schedule": [
     {
       "date": "2026-07-15",
-      "display_date": "Wednesday, 15 July 2026",
       "slots": [
-        { "slot": 1, "time": "9:30 AM – 11:00 AM", "activity": "Induction" }
+        {
+          "time": "9:30 AM - 01:00 PM",
+          "activity": "Main Induction",
+          "venue": "MG Auditorium",
+          "slot": 1
+        }
       ]
     }
   ]
 }
 ```
 
-## Registration-number search — important
+## Confirming programme coverage
 
-The source spreadsheet has **no registration numbers in it**, only department names. `branch-codes.json` is a best-guess mapping of likely branch-code fragments (e.g. `CSD`, `AIML`, `EEE`) that the app looks for inside whatever the student types. Before going live:
+The dropdown is generated from `data.json`, so every programme listed there must be present in the file. If a programme is missing from the dropdown, add or correct its entry in `data.json`.
 
-1. Confirm your institution's real registration-number format.
-2. Update the code lists in `branch-codes.json` so they match exactly (add/remove codes per programme).
+## Local preview
 
-Department search works immediately with no changes, since it uses the real programme names.
-
-## Run locally
-
-Any static file server works, e.g.:
+Use any static server to preview locally:
 
 ```bash
 npx serve .
 ```
 
-Then open the printed local URL.
+Then visit the local URL shown by the server.
 
-## Deploy to Vercel
+## Deployment
 
-1. Push this folder to a GitHub repo (or drag-and-drop it in the Vercel dashboard).
-2. In Vercel, "Add New Project" → import the repo.
-3. Framework preset: **Other** (no build step needed — it's a static site).
-4. Deploy. `vercel.json` is already set up for clean URLs.
+This repository is ready for static hosting.
 
-Or via CLI from inside this folder:
+- For Vercel: import the folder as a plain static project.
+- For any other host: deploy as static HTML/CSS/JS.
 
-```bash
-npm i -g vercel
-vercel
-```
+`vercel.json` is provided for clean deployment if you choose the Vercel CLI or dashboard.
