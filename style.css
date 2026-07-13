@@ -263,29 +263,40 @@ body{
 
 .stub-slots{ padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; }
 .slot-row{
-  display: flex; flex-direction: column; gap: 8px;
+  display: grid;
+  gap: 6px;
 }
-.slot-meta{
-  display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
+.slot-line{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
 }
 .slot-time{
   font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-faint);
-  min-width: 170px;
 }
 .slot-activity{
   font-weight: 700; font-size: 14px;
   padding: 6px 12px; border-radius: 999px;
   color: #fff;
+  display: inline-flex;
+  align-items: center;
 }
 .slot-venue{
-  font-size: 13px; color: #E8A33D;
-  line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 13px;
+  color: #E8A33D;
+  line-height: 1.4;
   font-weight: 600;
 }
 .slot-venue-label{
   color: var(--ink-soft);
-  font-weight: 600;
-  margin-right: 4px;
+  font-weight: 700;
+}
+.slot-venue-value{
+  color: var(--paper-2);
 }
 .slot-activity.act-induction{ background: var(--teal); }
 .slot-activity.act-ept{ background: var(--marigold-dark); color: #221302; }

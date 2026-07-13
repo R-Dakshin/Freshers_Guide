@@ -62,12 +62,13 @@
         day.slots.forEach((slot) => {
           const row = document.createElement("div");
           row.className = "slot-row";
+          const venueText = slot.venue && slot.venue.trim() ? slot.venue : "Venue details pending";
           row.innerHTML = `
-            <div class="slot-meta">
+            <div class="slot-line">
               <span class="slot-time">${slot.time}</span>
               <span class="slot-activity ${activityClass(slot.activity)}">${slot.activity}</span>
             </div>
-            ${slot.venue ? `<div class="slot-venue"><span class="slot-venue-label">Venue:</span> ${slot.venue}</div>` : ""}
+            <div class="slot-venue"><span class="slot-venue-label">Venue:</span><span class="slot-venue-value">${venueText}</span></div>
           `;
           slotsCol.appendChild(row);
         });
@@ -109,6 +110,7 @@
   function populateDeptSelect() {
     scheduleData
       .slice()
+      .filter((p) => !/26BCE|Series/i.test(p.programme))
       .sort((a, b) => a.programme.localeCompare(b.programme))
       .forEach((p) => {
         const opt = document.createElement("option");
