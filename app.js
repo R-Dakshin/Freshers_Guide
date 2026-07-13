@@ -110,7 +110,7 @@
   function populateDeptSelect() {
     scheduleData
       .slice()
-      .filter((p) => !/26BCE|Series/i.test(p.programme))
+      .filter((p) => p.programme !== "B.Tech. Computer Science and Engineering")
       .sort((a, b) => a.programme.localeCompare(b.programme))
       .forEach((p) => {
         const opt = document.createElement("option");
@@ -120,7 +120,7 @@
       });
   }
 
-  fetch("data.json")
+  fetch("data-from-xlsx.json")
     .then((r) => r.json())
     .then((data) => {
       scheduleData = data;
