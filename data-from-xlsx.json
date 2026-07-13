@@ -1,0 +1,537 @@
+[
+  {
+    "programme": "B.Tech Fashion Technology",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor-Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech Bio Technology",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor-Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Civil Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor-Proctee Meeting"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "School Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Interactions with Industry Experts"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Civil Engineering (In Collaboration with L&T)",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor-Proctee Meeting"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "School Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Interactions with Industry Experts"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electrical and Computer Science Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "Document Submission / Verification"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 05:30 PM",
+            "activity": "English Proficiency Test"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 12.30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "2.00 PM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electrical and Electronics Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "Document Submission / Verification"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 05:30 PM",
+            "activity": "English Proficiency Test"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 12.30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "2.00 PM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechanical Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechanical Engineering (Electric Vehicles)",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechatronics and Automation",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
+          }
+        ]
+      }
+    ]
+  }
+]

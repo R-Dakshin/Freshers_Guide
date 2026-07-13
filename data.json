@@ -4,33 +4,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
           },
           {
             "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "School"
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor-Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -41,33 +64,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
           },
           {
-            "slot": 4,
-            "time": "3:30 PM – 5:30 PM",
-            "activity": "School"
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor-Proctee Meeting"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "School Induction"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Interactions with Industry Experts"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -78,33 +124,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
           },
           {
-            "slot": 4,
-            "time": "3:30 PM – 5:30 PM",
-            "activity": "School"
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor-Proctee Meeting"
+          },
+          {
+            "slot": 3,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "School Induction"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Interactions with Industry Experts"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -115,39 +184,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Document Collection"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "Document Submission / Verification"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "EPT"
+            "slot": 2,
+            "time": "02:00 PM - 05:30 PM",
+            "activity": "English Proficiency Test"
           }
         ]
       },
       {
         "date": "2026-07-17",
-        "display_date": "Friday, 17 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "School"
+            "time": "9.30 AM to 12.30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "2.00 PM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -158,39 +244,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "Proctor Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Document Collection"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "Document Submission / Verification"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "EPT"
+            "slot": 2,
+            "time": "02:00 PM - 05:30 PM",
+            "activity": "English Proficiency Test"
           }
         ]
       },
       {
         "date": "2026-07-17",
-        "display_date": "Friday, 17 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "School"
+            "time": "9.30 AM to 12.30 PM",
+            "activity": "School Induction"
+          },
+          {
+            "slot": 2,
+            "time": "2.00 PM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -201,39 +304,51 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "School"
+            "slot": 2,
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
           }
         ]
       },
       {
         "date": "2026-07-17",
-        "display_date": "Friday, 17 July 2026",
         "slots": [
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -244,39 +359,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
           },
           {
             "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "School"
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
           }
         ]
       },
       {
         "date": "2026-07-17",
-        "display_date": "Friday, 17 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Document Collection"
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -287,39 +419,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
           },
           {
             "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "School"
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Bridge Courses"
           }
         ]
       },
       {
         "date": "2026-07-17",
-        "display_date": "Friday, 17 July 2026",
         "slots": [
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }
@@ -330,33 +479,56 @@
     "schedule": [
       {
         "date": "2026-07-15",
-        "display_date": "Wednesday, 15 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "Induction"
+            "time": "9:30 AM - 01:00 PM",
+            "activity": "Main Induction"
+          },
+          {
+            "slot": 2,
+            "time": "02:00 PM - 03:30 PM",
+            "activity": "School Induction"
           },
           {
             "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "School"
+            "time": "03:30 PM - 05:00 PM",
+            "activity": "Proctor-Proctee Meeting"
           }
         ]
       },
       {
         "date": "2026-07-16",
-        "display_date": "Thursday, 16 July 2026",
         "slots": [
           {
             "slot": 1,
-            "time": "9:30 AM – 11:00 AM",
-            "activity": "EPT"
+            "time": "10:00 AM - 01:00 PM",
+            "activity": "English Proficiency Test"
           },
           {
-            "slot": 3,
-            "time": "2:00 PM – 3:30 PM",
-            "activity": "Document Collection"
+            "slot": 2,
+            "time": "02:00 PM - 04:00 PM",
+            "activity": "Document Submission / Verification"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9.30 AM to 4.00 PM",
+            "activity": "Bridge Courses*"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "As per VTOP Time Table",
+            "activity": "COMMENCEMENT OF CLASSES"
           }
         ]
       }

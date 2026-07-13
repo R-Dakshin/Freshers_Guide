@@ -32,11 +32,6 @@
   </section>
 
   <section class="lookup-card" id="lookup-card">
-    <div class="tabs" role="tablist">
-      <button class="tab active" id="tab-dept" role="tab" aria-selected="true">By Department</button>
-      <button class="tab" id="tab-reg" role="tab" aria-selected="false">By Registration No.</button>
-    </div>
-
     <div class="tab-panel" id="panel-dept">
       <label class="field-label" for="dept-select">Your programme</label>
       <div class="select-wrap">
@@ -45,13 +40,6 @@
         </select>
       </div>
       <button class="btn-primary" id="btn-dept-search">View my schedule</button>
-    </div>
-
-    <div class="tab-panel hidden" id="panel-reg">
-      <label class="field-label" for="reg-input">Registration number</label>
-      <input class="text-input mono" id="reg-input" type="text" placeholder="e.g. 24CSD0098" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="text" maxlength="20" />
-      <button class="btn-primary" id="btn-reg-search">View my schedule</button>
-      <p class="hint">We match the branch code inside your number automatically and only use it on this page.</p>
     </div>
     <p class="error hidden" id="error-msg"></p>
   </section>
@@ -94,7 +82,6 @@
 
 </main>
 
-<footer class="foot">Freshers Guide · Secure orientation support for new students.</footer>
 
 <script src="app.js"></script>
 </body>

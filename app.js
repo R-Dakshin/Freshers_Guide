@@ -2,16 +2,9 @@
   "use strict";
 
   let scheduleData = [];
-  let branchCodes = {};
 
   const deptSelect = document.getElementById("dept-select");
-  const regInput = document.getElementById("reg-input");
-  const tabDept = document.getElementById("tab-dept");
-  const tabReg = document.getElementById("tab-reg");
-  const panelDept = document.getElementById("panel-dept");
-  const panelReg = document.getElementById("panel-reg");
   const btnDeptSearch = document.getElementById("btn-dept-search");
-  const btnRegSearch = document.getElementById("btn-reg-search");
   const btnReset = document.getElementById("btn-reset");
   const errorMsg = document.getElementById("error-msg");
   const resultsSection = document.getElementById("results");
@@ -28,19 +21,6 @@
     errorMsg.classList.add("hidden");
   }
 
-  function switchTab(which) {
-    clearError();
-    const deptActive = which === "dept";
-    tabDept.classList.toggle("active", deptActive);
-    tabReg.classList.toggle("active", !deptActive);
-    tabDept.setAttribute("aria-selected", String(deptActive));
-    tabReg.setAttribute("aria-selected", String(!deptActive));
-    panelDept.classList.toggle("hidden", !deptActive);
-    panelReg.classList.toggle("hidden", deptActive);
-  }
-  tabDept.addEventListener("click", () => switchTab("dept"));
-  tabReg.addEventListener("click", () => switchTab("reg"));
-
   function activityClass(activity) {
     const a = activity.toLowerCase();
     if (a.includes("induction")) return "act-induction";
@@ -50,38 +30,7 @@
     return "act-default";
   }
 
-  function sanitizeRegistrationNumber(regNo) {
-    return regNo.toUpperCase().replace(/[^A-Z0-9]/g, "");
-  }
-
-  function clearSensitiveInput() {
-    regInput.value = "";
-    regInput.blur();
-  }
-
-  function findByRegistrationNumber(regNo) {
-    const upper = sanitizeRegistrationNumber(regNo);
-    // Build a flat list of {programme, code} sorted by code length desc,
-    // so specific codes (e.g. "AIML") are checked before generic ones (e.g. "CSE").
-    const flat = [];
-    Object.keys(branchCodes).forEach((programme) => {
-      if (programme.startsWith("_")) return;
-      (branchCodes[programme] || []).forEach((code) => {
-        flat.push({ programme, code: code.toUpperCase().replace(/\s+/g, "") });
-      });
-    });
-    flat.sort((a, b) => b.code.length - a.code.length);
-
-    for (const entry of flat) {
-      if (upper.includes(entry.code)) {
-        return scheduleData.find((p) => p.programme === entry.programme) || null;
-      }
-    }
-    return null;
-  }
-
   function renderResults(programmeData) {
-    clearSensitiveInput();
     resultProgramme.textContent = programmeData.programme;
     ticketStubs.innerHTML = "";
 
@@ -147,36 +96,13 @@
     renderResults(programmeData);
   });
 
-  btnRegSearch.addEventListener("click", () => {
-    clearError();
-    const val = regInput.value.trim();
-    if (!val) {
-      showError("Please enter your registration number.");
-      return;
-    }
-    const programmeData = findByRegistrationNumber(val);
-    if (!programmeData) {
-      showError("We couldn't match that registration number to a department. Try searching by department instead.");
-      return;
-    }
-    renderResults(programmeData);
-  });
-
-  regInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") btnRegSearch.click();
-  });
-
   btnReset.addEventListener("click", () => {
     resultsSection.classList.add("hidden");
     lookupCard.classList.remove("hidden");
     deptSelect.value = "";
-    clearSensitiveInput();
     clearError();
     lookupCard.scrollIntoView({ behavior: "smooth", block: "start" });
   });
-
-  window.addEventListener("pagehide", clearSensitiveInput);
-  window.addEventListener("beforeunload", clearSensitiveInput);
 
   function populateDeptSelect() {
     scheduleData
@@ -190,13 +116,10 @@
       });
   }
 
-  Promise.all([
-    fetch("data.json").then((r) => r.json()),
-    fetch("branch-codes.json").then((r) => r.json()),
-  ])
-    .then(([data, codes]) => {
+  fetch("data.json")
+    .then((r) => r.json())
+    .then((data) => {
       scheduleData = data;
-      branchCodes = codes;
       populateDeptSelect();
     })
     .catch(() => {
