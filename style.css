@@ -287,7 +287,7 @@ body{
   flex-wrap: wrap;
   gap: 6px;
   font-size: 13px;
-  color: #000000;
+  color: var(--ink-2);
   line-height: 1.4;
   font-weight: 600;
 }
@@ -296,7 +296,7 @@ body{
   font-weight: 700;
 }
 .slot-venue-value{
-  color: var(--paper-2);
+  color: var(--ink-3);
 }
 .slot-activity.act-induction{ background: var(--teal); }
 .slot-activity.act-ept{ background: var(--marigold-dark); color: #221302; }
