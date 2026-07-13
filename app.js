@@ -67,7 +67,7 @@
               <span class="slot-time">${slot.time}</span>
               <span class="slot-activity ${activityClass(slot.activity)}">${slot.activity}</span>
             </div>
-            ${slot.venue ? `<div class="slot-venue">${slot.venue}</div>` : ""}
+            ${slot.venue ? `<div class="slot-venue"><span class="slot-venue-label">Venue:</span> ${slot.venue}</div>` : ""}
           `;
           slotsCol.appendChild(row);
         });

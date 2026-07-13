@@ -266,19 +266,26 @@ body{
   display: flex; flex-direction: column; gap: 8px;
 }
 .slot-meta{
-  display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+  display: flex; flex-wrap: wrap; gap: 14px; align-items: center;
 }
 .slot-time{
   font-family: var(--font-mono); font-size: 12.5px; color: var(--ink-faint);
-}
-.slot-venue{
-  font-size: 13px; color: var(--ink-soft);
-  line-height: 1.5;
+  min-width: 170px;
 }
 .slot-activity{
   font-weight: 700; font-size: 14px;
-  padding: 4px 10px; border-radius: 999px;
+  padding: 6px 12px; border-radius: 999px;
   color: #fff;
+}
+.slot-venue{
+  font-size: 13px; color: #E8A33D;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.slot-venue-label{
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin-right: 4px;
 }
 .slot-activity.act-induction{ background: var(--teal); }
 .slot-activity.act-ept{ background: var(--marigold-dark); color: #221302; }
@@ -333,6 +340,23 @@ body{
   color: var(--ink-soft);
 }
 
+.direction-footer{
+  max-width: 720px;
+  margin: 20px auto 0;
+  padding: 18px 22px;
+  border-top: 1px solid rgba(232,163,61,0.18);
+  background: rgba(255,255,255,0.05);
+  text-align: center;
+  border-radius: 16px;
+}
+.direction-footer a{
+  color: var(--marigold);
+  text-decoration: none;
+  font-weight: 700;
+}
+.direction-footer a:hover{
+  text-decoration: underline;
+}
 .foot{
   text-align: center; padding: 24px 24px 40px;
   font-size: 12.5px; color: var(--ink-faint);
