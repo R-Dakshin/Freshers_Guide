@@ -1,0 +1,22 @@
+{
+  "_comment": "Maps each programme to the branch-code fragments likely to appear inside a student's registration number (e.g. 24BCE1234, 24CSD0098). Registration-number search checks these codes against the number the fresher types in, longest code first so specific branches are matched before generic ones. Edit freely to match your institution's actual numbering scheme.",
+  "B.Tech. Biotechnology": ["BIOTECH", "BIO", "BT"],
+  "B.Tech. Civil Engineering (In Collaboration with L&T)": ["CELT", "CE-LNT", "L&T", "LNT"],
+  "B.Tech. Civil Engineering": ["CIVIL", "CE"],
+  "B.Tech. Electrical and Computer Science Engineering": ["ECSE"],
+  "B.Tech. Electrical and Electronics Engineering": ["EEE"],
+  "B.Tech. Mechanical Engineering (Electric Vehicles)": ["MEEV", "MECHEV", "EV"],
+  "B.Tech. Mechanical Engineering": ["MECH", "ME"],
+  "B.Tech. Mechatronics and Automation": ["MECHATRONICS", "MCTA", "MCA"],
+  "B.Tech. Fashion Technology": ["FASHION", "FT"],
+  "B.Tech. CSE (Artificial Intelligence and Machine Learning)": ["AIML", "CSM"],
+  "B.Tech. CSE (Artificial Intelligence and Robotics)": ["CSAIR", "AIR"],
+  "B.Tech. CSE (Cyber Security) – 2+2 Dual Degree": ["CSBSD", "CYSD", "2+2"],
+  "B.Tech. CSE (Cyber Security)": ["CSBS", "CYS"],
+  "B.Tech. CSE (Data Science)": ["BDS"],
+  "B.Tech. CSE (Quantum Computing)": ["CSQC", "QC"],
+  "B.Tech. Computer Science and Engineering": ["CSE"],
+  "B.Tech. Electronics and Communication Engineering": ["ECE"],
+  "B.Tech. Electronics and Computer Engineering": ["ECM"],
+  "B.Tech. Electronics Engineering (VLSI Design and Technology)": ["BVD"]
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "programme": "B.Tech. Biotechnology",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Civil Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 4,
+            "time": "3:30 PM – 5:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Civil Engineering (In Collaboration with L&T)",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 4,
+            "time": "3:30 PM – 5:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electrical and Computer Science Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electrical and Electronics Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechanical Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechanical Engineering (Electric Vehicles)",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Mechatronics and Automation",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Fashion Technology",
+    "schedule": [
+      {
+        "date": "2026-07-15",
+        "display_date": "Wednesday, 15 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Computer Science and Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-16",
+        "display_date": "Thursday, 16 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT 1 SERIES"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection & EPT 5 SERIES"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Artificial Intelligence and Machine Learning)",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Artificial Intelligence and Robotics)",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Cyber Security)",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Cyber Security) – 2+2 Dual Degree",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Data Science)",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. CSE (Quantum Computing)",
+    "schedule": [
+      {
+        "date": "2026-07-17",
+        "display_date": "Friday, 17 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-19",
+        "display_date": "Sunday, 19 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "School"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electronics and Communication Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 2,
+            "time": "11:15 AM – 2:00 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "display_date": "Tuesday, 21 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electronics and Computer Engineering",
+    "schedule": [
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 2,
+            "time": "11:15 AM – 2:00 PM",
+            "activity": "School"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-21",
+        "display_date": "Tuesday, 21 July 2026",
+        "slots": [
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "programme": "B.Tech. Electronics Engineering (VLSI Design and Technology)",
+    "schedule": [
+      {
+        "date": "2026-07-18",
+        "display_date": "Saturday, 18 July 2026",
+        "slots": [
+          {
+            "slot": 1,
+            "time": "9:30 AM – 11:00 AM",
+            "activity": "Induction"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "EPT"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-20",
+        "display_date": "Monday, 20 July 2026",
+        "slots": [
+          {
+            "slot": 2,
+            "time": "11:15 AM – 2:00 PM",
+            "activity": "School"
+          },
+          {
+            "slot": 3,
+            "time": "2:00 PM – 3:30 PM",
+            "activity": "Document Collection"
+          }
+        ]
+      }
+    ]
+  }
+]

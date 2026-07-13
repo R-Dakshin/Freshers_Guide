@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Freshers Guide — Orientation Portal</title>
+<meta name="description" content="Freshers Guide helps new students find their orientation schedule, support contacts, and important guidance in a secure, private portal." />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'" />
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <h2 class="wordmark">Freshers Guide</h2>
+  </div>
+</header>
+
+<main class="stage">
+
+  <section class="intro">
+    <h2 class="headline">Your orientation week, made simple.</h2>
+    <p class="sub">Use this guide to find your induction timetable, document checks, and support contacts.</p>
+  </section>
+
+  <section class="lookup-card" id="lookup-card">
+    <div class="tabs" role="tablist">
+      <button class="tab active" id="tab-dept" role="tab" aria-selected="true">By Department</button>
+      <button class="tab" id="tab-reg" role="tab" aria-selected="false">By Registration No.</button>
+    </div>
+
+    <div class="tab-panel" id="panel-dept">
+      <label class="field-label" for="dept-select">Your programme</label>
+      <div class="select-wrap">
+        <select id="dept-select">
+          <option value="" disabled selected>Select your department…</option>
+        </select>
+      </div>
+      <button class="btn-primary" id="btn-dept-search">View my schedule</button>
+    </div>
+
+    <div class="tab-panel hidden" id="panel-reg">
+      <label class="field-label" for="reg-input">Registration number</label>
+      <input class="text-input mono" id="reg-input" type="text" placeholder="e.g. 24CSD0098" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="text" maxlength="20" />
+      <button class="btn-primary" id="btn-reg-search">View my schedule</button>
+      <p class="hint">We match the branch code inside your number automatically and only use it on this page.</p>
+    </div>
+    <p class="error hidden" id="error-msg"></p>
+  </section>
+
+  <section class="results hidden" id="results">
+    <div class="ticket-head">
+      <div>
+        <p class="ticket-label">Programme</p>
+        <h3 class="ticket-programme" id="result-programme">—</h3>
+      </div>
+      <button class="btn-ghost" id="btn-reset">Search again</button>
+    </div>
+    <div class="ticket-stubs" id="ticket-stubs"></div>
+  </section>
+
+  <section class="helpline-section" aria-labelledby="helpline-title">
+    <div class="helpline-head">
+      <p class="eyebrow">Need help?</p>
+      <h3 id="helpline-title">Helpline contacts</h3>
+      <p class="sub">If you need help with orientation, documents, or campus support, reach the official desks below.</p>
+    </div>
+    <div class="helpline-grid">
+      <article class="contact-card">
+        <h4>Admissions & Orientation</h4>
+        <a href="tel:+2347000000000">+234 700 000 0000</a>
+        <p>Mon–Fri · 8:00 AM – 6:00 PM</p>
+      </article>
+      <article class="contact-card">
+        <h4>Student Support</h4>
+        <a href="mailto:support@freshersguide.edu">support@freshersguide.edu</a>
+        <p>For timetable questions and document issues</p>
+      </article>
+      <article class="contact-card">
+        <h4>Campus Security</h4>
+        <a href="tel:+2347000000001">+234 700 000 0001</a>
+        <p>24/7 help for urgent campus concerns</p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">Freshers Guide · Secure orientation support for new students.</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
