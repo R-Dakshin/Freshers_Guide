@@ -30,6 +30,51 @@
     return "act-default";
   }
 
+  function parseScheduleDate(dateValue) {
+    if (!dateValue || typeof dateValue !== "string") return null;
+
+    const isoDate = new Date(dateValue + "T00:00:00");
+    if (!Number.isNaN(isoDate.valueOf())) return isoDate;
+
+    const dotMatch = dateValue.match(/^(\d{1,2})[.\-/](\d{1,2})[.\-/](\d{4})$/);
+    if (dotMatch) {
+      const [, day, month, year] = dotMatch;
+      const formatted = `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}T00:00:00`;
+      const parsed = new Date(formatted);
+      if (!Number.isNaN(parsed.valueOf())) return parsed;
+    }
+
+    return null;
+  }
+
+  function formatScheduleDate(dateText) {
+    const rawText = dateText && dateText.trim();
+    if (!rawText) {
+      return { raw: "Date unavailable" };
+    }
+
+    const parsedDate = parseScheduleDate(rawText);
+    if (parsedDate) {
+      return {
+        raw: null,
+        dayNum: parsedDate.getDate(),
+        dayName: parsedDate.toLocaleDateString("en-US", { weekday: "short" }),
+        monthYr: parsedDate.toLocaleDateString("en-US", { month: "short", year: "numeric" }),
+      };
+    }
+
+    const parts = rawText.split("&").map((part) => part.trim()).filter(Boolean);
+    const formattedParts = parts.map((part) => {
+      const parsed = parseScheduleDate(part);
+      if (parsed) {
+        return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+      }
+      return part;
+    });
+
+    return { raw: formattedParts.join(" & ") };
+  }
+
   function renderResults(programmeData) {
     resultProgramme.textContent = programmeData.programme;
     ticketStubs.innerHTML = "";
@@ -41,21 +86,25 @@
       ticketStubs.appendChild(p);
     } else {
       programmeData.schedule.forEach((day) => {
-        const dateObj = new Date(day.date + "T00:00:00");
-        const dayNum = dateObj.getDate();
-        const dayName = dateObj.toLocaleDateString("en-US", { weekday: "short" });
-        const monthYr = dateObj.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+        const dateInfo = formatScheduleDate(day.date);
 
         const stub = document.createElement("div");
         stub.className = "stub";
 
         const dateCol = document.createElement("div");
         dateCol.className = "stub-date";
-        dateCol.innerHTML = `
-          <div class="day-num">${dayNum}</div>
-          <div class="day-name">${dayName}</div>
-          <div class="month-yr">${monthYr}</div>
-        `;
+        if (dateInfo.raw) {
+          const rawDate = document.createElement("div");
+          rawDate.className = "day-num";
+          rawDate.textContent = dateInfo.raw;
+          dateCol.appendChild(rawDate);
+        } else {
+          dateCol.innerHTML = `
+            <div class="day-num">${dateInfo.dayNum}</div>
+            <div class="day-name">${dateInfo.dayName}</div>
+            <div class="month-yr">${dateInfo.monthYr}</div>
+          `;
+        }
 
         const slotsCol = document.createElement("div");
         slotsCol.className = "stub-slots";
