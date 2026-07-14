@@ -50,13 +50,13 @@
   function formatScheduleDate(dateText) {
     const rawText = dateText && dateText.trim();
     if (!rawText) {
-      return { raw: "Date unavailable" };
+      return { kind: "unknown", lines: ["Date unavailable"] };
     }
 
     const parsedDate = parseScheduleDate(rawText);
     if (parsedDate) {
       return {
-        raw: null,
+        kind: "single",
         dayNum: parsedDate.getDate(),
         dayName: parsedDate.toLocaleDateString("en-US", { weekday: "short" }),
         monthYr: parsedDate.toLocaleDateString("en-US", { month: "short", year: "numeric" }),
@@ -64,7 +64,7 @@
     }
 
     const parts = rawText.split("&").map((part) => part.trim()).filter(Boolean);
-    const formattedParts = parts.map((part) => {
+    const lines = parts.map((part) => {
       const parsed = parseScheduleDate(part);
       if (parsed) {
         return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
@@ -72,7 +72,7 @@
       return part;
     });
 
-    return { raw: formattedParts.join(" & ") };
+    return { kind: "multi", lines };
   }
 
   function renderResults(programmeData) {
@@ -93,17 +93,15 @@
 
         const dateCol = document.createElement("div");
         dateCol.className = "stub-date";
-        if (dateInfo.raw) {
-          const rawDate = document.createElement("div");
-          rawDate.className = "day-num";
-          rawDate.textContent = dateInfo.raw;
-          dateCol.appendChild(rawDate);
-        } else {
+        if (dateInfo.kind === "single") {
           dateCol.innerHTML = `
             <div class="day-num">${dateInfo.dayNum}</div>
             <div class="day-name">${dateInfo.dayName}</div>
             <div class="month-yr">${dateInfo.monthYr}</div>
           `;
+        } else {
+          const linesHtml = dateInfo.lines.map((line) => `<div class="day-multi">${line}</div>`).join("");
+          dateCol.innerHTML = `<div class="day-multi-wrap">${linesHtml}</div>`;
         }
 
         const slotsCol = document.createElement("div");
