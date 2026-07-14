@@ -253,6 +253,18 @@ body{
   font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-faint);
   margin-top: 2px;
 }
+.stub-date .day-multi-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.stub-date .day-multi{
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  white-space: pre-wrap;
+}
 .stub-date::before, .stub-date::after{
   content: ""; position: absolute; width: 16px; height: 16px;
   background: var(--ink); border-radius: 50%;
