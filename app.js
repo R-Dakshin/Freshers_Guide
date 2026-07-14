@@ -64,12 +64,37 @@
     }
 
     const parts = rawText.split("&").map((part) => part.trim()).filter(Boolean);
-    const lines = parts.map((part) => {
-      const parsed = parseScheduleDate(part);
-      if (parsed) {
-        return parsed.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    const parsedParts = parts.map((part) => ({ raw: part, parsed: parseScheduleDate(part) }));
+
+    const allParsed = parsedParts.every((entry) => entry.parsed);
+    if (allParsed) {
+      const monthYr = parsedParts[0].parsed.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+      const sameMonthYear = parsedParts.every((entry) => {
+        const date = entry.parsed;
+        return (
+          date.getMonth() === parsedParts[0].parsed.getMonth() &&
+          date.getFullYear() === parsedParts[0].parsed.getFullYear()
+        );
+      });
+
+      if (sameMonthYear) {
+        const days = parsedParts.map((entry) => entry.parsed.getDate()).join(" & ");
+        return { kind: "multi", lines: [`${days} ${monthYr}`] };
       }
-      return part;
+
+      const lines = parsedParts.map((entry) => {
+        const date = entry.parsed;
+        return `${date.getDate()} ${date.toLocaleDateString("en-US", { month: "short" })} ${date.getFullYear()}`;
+      });
+      return { kind: "multi", lines };
+    }
+
+    const lines = parsedParts.map((entry) => {
+      if (entry.parsed) {
+        const date = entry.parsed;
+        return `${date.getDate()} ${date.toLocaleDateString("en-US", { month: "short" })} ${date.getFullYear()}`;
+      }
+      return entry.raw;
     });
 
     return { kind: "multi", lines };
