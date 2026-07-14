@@ -49,7 +49,7 @@ body{
 .topbar-inner{
   max-width: 720px; margin: 0 auto;
   padding: 22px 24px 18px;
-  display: flex; align-items: baseline; justify-content: space-between;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
   flex-wrap: wrap; gap: 8px;
 }
 .stamp{
@@ -70,6 +70,15 @@ body{
   color: var(--paper-2);
   order: 0;
   width: 100%;
+  text-align: center;
+}
+.top-heading{
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  letter-spacing: -0.01em;
+  color: var(--marigold);
   text-align: center;
 }
 @media(min-width: 560px){
@@ -339,6 +348,10 @@ body{
 .helpline-grid{
   display: grid;
   gap: 14px;
+  justify-items: center;
+}
+.helpline-grid.single-card{
+  grid-template-columns: minmax(0, 420px);
 }
 .contact-card{
   padding: 16px;
@@ -388,6 +401,7 @@ body{
 
 @media (min-width: 640px){
   .helpline-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .helpline-grid.single-card{ grid-template-columns: minmax(0, 420px); }
 }
 
 @media (max-width: 480px){
